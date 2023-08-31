@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #202124;
+}
+
+#header{
+     color: #d6d9db;
+     padding: 10px;
+     margin: 20px;
+     letter-spacing: 1px;
+     text-align: center;
+}
+
+#img{
+    background-image: url('../img/transporte.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+    padding: 2em;
+}
+
+#imgTxt{
+    background-color: rgba(147, 141, 155, 0.2); 
+    color: #d6d9db;
+    text-align: center;
+    padding: 10px;
+}
+
+#wrap-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    border: 1px solid #CCC;
+    color:#d6d9db;
+    background-color: rgba(147, 141, 155, 0.1);
+    width: 650px;  
+    text-align: center;
+    padding: 20px;
+    margin-top: -15em;
+}
+
+#btn-Send{
+    border: 1px solid #ccc;
+}
+
+#btn-Send:hover{
+    background-color: rgba(73, 69, 69, 0.082); 
+}
+#footer{
+    margin-top: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: rgba(73, 69, 69, 0.082); 
+}
+
+#footer p{
+    margin: 10px;
+}
+#footer a{
+    text-decoration: none;
+    color: #CCC;
+    transition: 0.6s;
+} 
+
+#footer a:hover{
+    color: #7a8085;
+}
+
+#copy,
+#date{
+    color: #CCC;
+}
+
+
+
